@@ -2,7 +2,7 @@ import requests
 import os
 import random
 
-API_KEY = "tH9T85WPUnDPOm9TPhRiekm4iNUyfGhGGDTr4UewuQigworetVoU9SsX"  
+API_KEY = ""  
 N_IMAGES = 13
 SAVE_DIR = r"D:\jigsaw\dataset2"
 
@@ -60,4 +60,5 @@ try:
 except requests.exceptions.RequestException as e:
     print(f"Ошибка при скачивании: {e}")
 except Exception as e:
+
     print(f"Произошла ошибка: {e}")
